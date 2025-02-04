@@ -6,16 +6,22 @@
     <title>Allah Free Download</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: serif;
             text-align: center;
-            background-color: #f4f4f4;
+            background-color: black;
             padding: 50px;
+            color: yellow;
         }
         h1 {
-            color: #333;
+            color: yellow;
         }
         img {
             width: 300px;
+            margin: 20px 0;
+        }
+        video {
+            width: 80%;
+            max-width: 600px;
             margin: 20px 0;
         }
         .download-btn {
@@ -23,21 +29,34 @@
             padding: 10px 20px;
             font-size: 18px;
             color: white;
-            background-color: #007BFF;
+            background-color: green;
             text-decoration: none;
             border-radius: 5px;
+            margin-top: 20px;
         }
         .download-btn:hover {
-            background-color: #0056b3;
+            background-color: darkgreen;
         }
     </style>
 </head>
 <body>
 
     <h1>ALLAH FREE DOWNLOAD</h1>
+
     <img src="allah.png" alt="Allah Calligraphy">
+
     <br>
-    <a href="allah.png" download class="download-btn">Download</a>
+
+    <!-- Video Player -->
+    <video controls>
+        <source src="allah.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <br>
+
+    <!-- Download Button -->
+    <a href="download.mp4" download class="download-btn">Download</a>
 
 </body>
 </html>
